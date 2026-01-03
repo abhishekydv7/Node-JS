@@ -14,17 +14,45 @@
 
 // console.log(a);
 
-function one(){
-    const username = "abhishek"
+// function one(){
+//     const username = "abhishek"
 
-    function two(){
-        const website = "youtube"
-        console.log(username);
+//     function two(){
+//         const website = "youtube"
+//         console.log(username);
         
-    }
-    console.log(website);
+//     }
+//    // console.log(website);
     
-    two()
+//    // two()
 
+// }
+// //one()
+
+// if (true) {
+//     const username = "franky"
+//     if (username === "franky") {
+//         const website = " youtube"
+//         //console.log(username + website);
+        
+//     }
+//     //console.log(website);
+    
+// }
+
+//console.log(username);
+
+
+// ++++++++++++++++++ interesting +++++++++++++
+
+console.log(addone(5));
+
+function addone(num) {
+    return num + 1
 }
-one()
+
+
+addTwo(5)
+const addTwo = function(num){
+    return num+2
+}
