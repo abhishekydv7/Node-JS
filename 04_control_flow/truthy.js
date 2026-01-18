@@ -44,7 +44,7 @@ iceTeaPrice <= 80 ? console.log("less than 80") : console.log("more than 80");
 //something 
 
 if (iceTeaPrice>= 100) {
-    console.log("invalid");
+    console.log("invalid"); 
     
 }
     
