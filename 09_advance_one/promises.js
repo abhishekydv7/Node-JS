@@ -100,3 +100,4 @@ consumePromiseFive()
 fetch ('https://jsonplaceholder.typicode.com/users')
 .then9
 //6:15
+//promises
