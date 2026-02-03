@@ -97,7 +97,11 @@ consumePromiseFive()
 // }
 //getAllUsers()
 
-fetch ('https://jsonplaceholder.typicode.com/users')
-.then9
-//6:15
-//promises
+fetch ('https://api.github.com/users/hiteshchoudhary')
+.then((response) => {
+    return response.json()
+})
+.then((data) =>{
+    console.log(data);
+})
+.catch((error)=> console.log(error))
